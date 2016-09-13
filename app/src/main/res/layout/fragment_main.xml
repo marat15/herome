@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/hero_button">
+        android:background="@drawable/hero_bg_gradient">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -37,14 +37,60 @@
 
         <Button
             android:layout_width="350dp"
-            android:layout_height="60dp"
+            android:layout_height="65dp"
             android:text="Came by Accident"
             android:id="@+id/button"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/hero_button"
             android:textColor="#ffd202"
             android:drawableLeft="@drawable/lightning"
-            android:drawableRight="@android:drawable/checkbox_on_background" />
+            android:drawableRight="@drawable/itemselected"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:text="Genetic Mutation"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:textColor="#ffd202"
+            android:drawableLeft="@drawable/rocket"
+            android:drawableRight="@drawable/itemselected"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:text="Born With Them"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:textColor="#ffd202"
+            android:drawableLeft="@drawable/atomic"
+            android:drawableRight="@drawable/itemselected"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:text="Choose Powers"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_solid_button"
+            android:textColor="#10161D"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#ffd202"
+            android:textAllCaps="true"
+            android:textSize="22dp" />
 
 
     </LinearLayout>
